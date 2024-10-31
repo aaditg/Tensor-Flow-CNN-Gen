@@ -40,6 +40,7 @@ File Structure:
 interactive_image_categorizer_and_cnn.py: Main script that handles categorization, organization, and CNN generation.
 
 helper.py: Helper functions for image manipulation and other utilities.
+
 CNN_Generator.py: Script for generating a CNN model based on the organized dataset.
 
 categorized_images.csv: CSV file storing the image names and their categories.
