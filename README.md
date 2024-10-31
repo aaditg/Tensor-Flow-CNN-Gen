@@ -1,16 +1,16 @@
 Image Categorizer and CNN Generator
-This project provides a pipeline for categorizing images, organizing them into labeled folders, and generating a Convolutional Neural Network (CNN) model based on the organized dataset.
+This project provides a way to categorize images, organize them into labeled folders, and generate a Convolutional Neural Network (CNN) model based on the organized dataset.
 
 Features
 Interactive Image Categorization: The script allows the user to classify images manually by viewing them and assigning categories.
-Automatic Dataset Organization: Once images are categorized, they are automatically sorted into folders by category.
+Automatic Dataset Organization: Once images are categorized or presented in a CSV file, they are automatically sorted into folders by category.
 CNN Model Generation: After organizing the dataset, the script generates a CNN model using the categorized images.
 
 Requirements:
 
 
 Python 3.8 or higher
-Required packages: pandas, PIL (Pillow), matplotlib, tensorflow, shutil
+Required packages: pandas, PIL, matplotlib, tensorflow, shutil
 
 Install the required dependencies by running in the terminal:
 
@@ -19,7 +19,7 @@ pip install pandas pillow matplotlib tensorflow
 
 Run the Main Script:
 
-python interactive_image_categorizer_and_cnn.py
+python3 interactive_image_categorizer_and_cnn.py
 
 
 Provide Inputs:
